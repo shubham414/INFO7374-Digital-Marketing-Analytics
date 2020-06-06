@@ -11,6 +11,9 @@
 ## Claat Link: 
 https://docs.google.com/document/d/1f3HuWXtxYVvvskPv15PcWPbxiZbUhAX5wXumiBIjiFQ/edit?ts=5ecff4ee#
 
+## Salesforce Dashboard for Criteo
+❮img src="Criteo_Marketing_Analysis.png" ❯
+
 ## About the dataset: 
 
 The dataset represents a sample of 30 days of Criteo live traffic data. Each line corresponds to one impression (a banner) that was displayed to a user. For each banner we have detailed information about the context, if it was clicked, if it led to a conversion and if it led to a conversion that was attributed to Criteo or not. 
