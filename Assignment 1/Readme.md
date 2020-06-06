@@ -1,4 +1,4 @@
-#INFO7374DigitalMarketingAnalytics
+# INFO7374DigitalMarketingAnalytics
 
 ## Team Information
 | Name | NEU ID |
