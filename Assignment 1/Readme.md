@@ -12,7 +12,9 @@
 https://docs.google.com/document/d/1f3HuWXtxYVvvskPv15PcWPbxiZbUhAX5wXumiBIjiFQ/edit?ts=5ecff4ee#
 
 ## Salesforce Dashboard for Criteo
-❮img src="Assignment%201/Criteo_Marketing_Analysis.png" ❯
+
+![Criteo_Marketing_Analysis](https://user-images.githubusercontent.com/59700753/83936511-5ddc3d80-a792-11ea-951c-a96c89e84e36.png)
+
 
 ## About the dataset: 
 
