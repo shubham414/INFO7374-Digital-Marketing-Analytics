@@ -1,14 +1,22 @@
-INFO7374DigitalMarketingAnalytics
+#INFO7374DigitalMarketingAnalytics
 
-Claat Link: https://docs.google.com/document/d/1f3HuWXtxYVvvskPv15PcWPbxiZbUhAX5wXumiBIjiFQ/edit?ts=5ecff4ee#
+## Team Information
+| Name | NEU ID |
+| --- | --- |
+| Shubham Mahajan | 001314273 |
+| Gauri Verma | 001306996 |
+| Anurag Rachcha | 001375637 |
 
-About the dataset: 
+
+## Claat Link: 
+https://docs.google.com/document/d/1f3HuWXtxYVvvskPv15PcWPbxiZbUhAX5wXumiBIjiFQ/edit?ts=5ecff4ee#
+
+## About the dataset: 
 
 The dataset represents a sample of 30 days of Criteo live traffic data. Each line corresponds to one impression (a banner) that was displayed to a user. For each banner we have detailed information about the context, if it was clicked, if it led to a conversion and if it led to a conversion that was attributed to Criteo or not. 
 
 
 Criteo's product is a form of display advertising. Crieto’s personalized retargeting solution displays interactive banner advertisements, generated based on the online retail browsing preferences and products for each customer. 
-
 
 Here is a detailed description of the fields (they are tab-separated in the file):
 
@@ -28,11 +36,7 @@ time_since_last_click the time since the last click (in s) for the given impress
 cat[1-9] contextual features associated to the display. Can be used to learn the click/conversion models. We do not disclose the meaning of these features but it is not relevant for this study. Each column is a categorical variable. In the experiments, they are mapped to a fixed dimensionality space using the Hashing Trick (see paper for reference).
 
 ____________________________________________
-
 Python Notebook contains various data transformations and vizualisations which have been furthur used in Einstein Analytics.
-
 ____________________________________________
-
 The .tx dataset file is broken down into smaller folders and is attached.
-
 ____________________________________________
