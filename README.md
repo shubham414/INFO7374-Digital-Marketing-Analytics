@@ -9,6 +9,6 @@
 
 ### Assignment 1 - Criteo's Digital Marketing Data Analysis
 
-### Assignment 3 - Image Similarity Detection - Visual Search 
+### Assignment 2 - Image Similarity Detection - Visual Search 
 
 #### Note :- Every Assignemnt has it's own ReadMe for detailed explanation.
