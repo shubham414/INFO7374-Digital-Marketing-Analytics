@@ -1,8 +1,22 @@
-INFO7374DigitalMarketingAnalytics
+# Criteo's Digital Marketing Data Analysis
 
-Claat Link: https://docs.google.com/document/d/1f3HuWXtxYVvvskPv15PcWPbxiZbUhAX5wXumiBIjiFQ/edit?ts=5ecff4ee#
+## Team Information
+| Name | NEU ID |
+| --- | --- |
+| Shubham Mahajan | 001314273 |
+| Gauri Verma | 001306996 |
+| Anurag Rachcha | 001375637 |
 
-About the dataset: 
+
+## Claat Link: 
+https://docs.google.com/document/d/1f3HuWXtxYVvvskPv15PcWPbxiZbUhAX5wXumiBIjiFQ/edit?ts=5ecff4ee#
+
+
+## Salesforce - Einstein Analytics Dashboard
+![Criteo -Einstein Analytics Dashboard](https://user-images.githubusercontent.com/59700753/87963825-58f3f480-ca87-11ea-9f5f-604ce193a79d.jpeg)
+
+
+## About the dataset: 
 
 The dataset represents a sample of 30 days of Criteo live traffic data. Each line corresponds to one impression (a banner) that was displayed to a user. For each banner we have detailed information about the context, if it was clicked, if it led to a conversion and if it led to a conversion that was attributed to Criteo or not. 
 
