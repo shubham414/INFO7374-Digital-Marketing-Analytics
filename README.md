@@ -11,4 +11,6 @@
 
 ### Assignment 2 - Image Similarity Detection - Visual Search 
 
+### Assignment 3 - Snack Recommendation System
+
 #### Note :- Every Assignemnt has it's own ReadMe for detailed explanation.
