@@ -1,0 +1,807 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.4">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="702" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_customers_dataset_new.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>olist_customers_dataset_new.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="customer_id" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_customers_dataset_new.csv" type="V_String" />
+            <Field name="customer_unique_id" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_customers_dataset_new.csv" type="V_String" />
+            <Field name="customer_id3" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_customers_dataset_new.csv" type="V_String" />
+            <Field name="customer_unique_id_3" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_customers_dataset_new.csv" type="V_String" />
+            <Field name="customer_zip_code_prefix" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_customers_dataset_new.csv" type="V_String" />
+            <Field name="customer_city" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_customers_dataset_new.csv" type="V_String" />
+            <Field name="customer_state" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_customers_dataset_new.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_order_items_dataset_new.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>olist_order_items_dataset_new.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="seller_id" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_order_items_dataset_new.csv" type="V_String" />
+            <Field name="seller_id3" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_order_items_dataset_new.csv" type="V_String" />
+            <Field name="order_id" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_order_items_dataset_new.csv" type="V_String" />
+            <Field name="order_id3" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_order_items_dataset_new.csv" type="V_String" />
+            <Field name="order_item_id" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_order_items_dataset_new.csv" type="V_String" />
+            <Field name="product_id" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_order_items_dataset_new.csv" type="V_String" />
+            <Field name="product_id_3" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_order_items_dataset_new.csv" type="V_String" />
+            <Field name="shipping_limit_date" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_order_items_dataset_new.csv" type="V_String" />
+            <Field name="price" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_order_items_dataset_new.csv" type="V_String" />
+            <Field name="freight_value" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_order_items_dataset_new.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_order_payments_dataset_new.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>olist_order_payments_dataset_new.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="order_id" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_order_payments_dataset_new.csv" type="V_String" />
+            <Field name="order_id3" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_order_payments_dataset_new.csv" type="V_String" />
+            <Field name="payment_sequential" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_order_payments_dataset_new.csv" type="V_String" />
+            <Field name="payment_type" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_order_payments_dataset_new.csv" type="V_String" />
+            <Field name="payment_installments" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_order_payments_dataset_new.csv" type="V_String" />
+            <Field name="payment_value" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_order_payments_dataset_new.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_orders_dataset_new.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>olist_orders_dataset_new.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="customer_id" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_orders_dataset_new.csv" type="V_String" />
+            <Field name="customer_id3" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_orders_dataset_new.csv" type="V_String" />
+            <Field name="order_id" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_orders_dataset_new.csv" type="V_String" />
+            <Field name="order_id3" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_orders_dataset_new.csv" type="V_String" />
+            <Field name="order_status" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_orders_dataset_new.csv" type="V_String" />
+            <Field name="order_purchase_timestamp" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_orders_dataset_new.csv" type="V_String" />
+            <Field name="order_approved_at" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_orders_dataset_new.csv" type="V_String" />
+            <Field name="order_delivered_carrier_date" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_orders_dataset_new.csv" type="V_String" />
+            <Field name="order_delivered_customer_date" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_orders_dataset_new.csv" type="V_String" />
+            <Field name="order_estimated_delivery_date" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_orders_dataset_new.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="522" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_products_dataset_new.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>olist_products_dataset_new.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="product_id" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_products_dataset_new.csv" type="V_String" />
+            <Field name="productid_3" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_products_dataset_new.csv" type="V_String" />
+            <Field name="product_category_name" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_products_dataset_new.csv" type="V_String" />
+            <Field name="product_name_lenght" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_products_dataset_new.csv" type="V_String" />
+            <Field name="product_description_lenght" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_products_dataset_new.csv" type="V_String" />
+            <Field name="product_photos_qty" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_products_dataset_new.csv" type="V_String" />
+            <Field name="product_weight_g" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_products_dataset_new.csv" type="V_String" />
+            <Field name="product_length_cm" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_products_dataset_new.csv" type="V_String" />
+            <Field name="product_height_cm" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_products_dataset_new.csv" type="V_String" />
+            <Field name="product_width_cm" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_products_dataset_new.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="294" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_reviews_dataset_new.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>olist_reviews_dataset_new.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="review_id" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_reviews_dataset_new.csv" type="V_String" />
+            <Field name="review_id3" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_reviews_dataset_new.csv" type="V_String" />
+            <Field name="order_id3" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_reviews_dataset_new.csv" type="V_String" />
+            <Field name="order_id" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_reviews_dataset_new.csv" type="V_String" />
+            <Field name="review_score" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_reviews_dataset_new.csv" type="V_String" />
+            <Field name="review_comment_title" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_reviews_dataset_new.csv" type="V_String" />
+            <Field name="review_comment_message" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_reviews_dataset_new.csv" type="V_String" />
+            <Field name="review_creation_date" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_reviews_dataset_new.csv" type="V_String" />
+            <Field name="review_answer_timestamp" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_reviews_dataset_new.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="834" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_sellers_dataset_new.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>olist_sellers_dataset_new.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="seller_id" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_sellers_dataset_new.csv" type="V_String" />
+            <Field name="seller_id2" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_sellers_dataset_new.csv" type="V_String" />
+            <Field name="seller_zip_code_prefix" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_sellers_dataset_new.csv" type="V_String" />
+            <Field name="seller_city" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_sellers_dataset_new.csv" type="V_String" />
+            <Field name="seller_state" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\olist_sellers_dataset_new.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="978" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\product_category_name_translation.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>product_category_name_translation.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="product_category_name" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\product_category_name_translation.csv" type="V_WString" />
+            <Field name="product_category_name_english" size="254" source="File: Z:\ADM\PROJECT_ ADM\olistpreprocesseddata\olistpre1\product_category_name_translation.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="198" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="order_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="order_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_order_id3" selected="False" input="Left_" />
+                <SelectField field="Right_seller_id3" selected="False" input="Right_" />
+                <SelectField field="Right_order_id" selected="False" rename="Right_order_id" input="Right_" />
+                <SelectField field="Right_order_id3" selected="False" rename="Right_order_id3" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="318" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="order_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="order_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_product_id_3" selected="False" input="Left_" />
+                <SelectField field="Right_order_id" selected="False" rename="Right_order_id" input="Right_" />
+                <SelectField field="Right_order_id3" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="570" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="order_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="order_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_customer_id3" selected="False" input="Left_" />
+                <SelectField field="Right_review_id3" selected="False" input="Right_" />
+                <SelectField field="Right_order_id3" selected="False" input="Right_" />
+                <SelectField field="Right_order_id" selected="False" rename="Right_order_id" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="666" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="product_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="product_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_product_id" selected="False" rename="Right_product_id" input="Right_" />
+                <SelectField field="Right_productid_3" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="786" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="customer_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="customer_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_customer_id" selected="False" rename="Right_customer_id" input="Right_" />
+                <SelectField field="Right_customer_id3" selected="False" input="Right_" />
+                <SelectField field="Right_customer_unique_id_3" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="918" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="seller_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="seller_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_seller_id" selected="False" rename="Right_seller_id" input="Right_" />
+                <SelectField field="Right_seller_id2" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1074" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="product_category_name" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="product_category_name" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_product_category_name" selected="False" rename="Right_product_category_name" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1362" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\shubh\AppData\Local\Temp\Engine_1168_b3a4928ea6a7480f8d7696dfac8cea68_\Engine_1140_16301d7af47344a1827117a761c24a08_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings>
+        <Position x="1194" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"customer_id","order_id","order_status","order_purchase_timestamp","order_approved_at","order_delivered_carrier_date","order_delivered_customer_date","order_estimated_delivery_date","seller_id","order_item_id","product_id","shipping_limit_date","price","freight_value","payment_sequential","payment_type","payment_installments","payment_value","review_id","review_score","review_comment_title","review_comment_message","review_creation_date","review_answer_timestamp","product_category_name","product_name_lenght","product_description_lenght","product_photos_qty","product_weight_g","product_length_cm","product_height_cm","product_width_cm","customer_unique_id","customer_zip_code_prefix","customer_city","customer_state","seller_zip_code_prefix","seller_city","seller_state","product_category_name_english"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1278" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings>
+        <Position x="378" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"review_id","review_id3","order_id3","order_id","review_score","review_comment_title","review_comment_message","review_creation_date","review_answer_timestamp"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="474" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="20" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Join" />
+      <Destination ToolID="20" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="13" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="13" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="15" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Join" />
+      <Destination ToolID="15" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="19" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Join" />
+      <Destination ToolID="19" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="28" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="21" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Join" />
+      <Destination ToolID="21" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="22" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Join" />
+      <Destination ToolID="22" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Join" />
+      <Destination ToolID="18" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="18" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Join" />
+      <Destination ToolID="26" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output26" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output26" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DataPreprocessing_AlteryxFlow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
