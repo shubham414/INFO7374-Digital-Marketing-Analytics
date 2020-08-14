@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*font-size: calc(10px + 2vmin);*/
+  /*font-size: 18px;*/
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.hot {
+  width: 98%;
+  height: 5rem;
+}
+
+.list-group-item {
+  background-color: #555 !important;
+}
+
+.recommended-table {
+  width: 100% !important;
+}
+
+#recommended-table td {
+  font-size: 15px !important;
+}
