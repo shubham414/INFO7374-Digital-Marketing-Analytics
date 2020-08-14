@@ -1,0 +1,7 @@
+,Customer Segment,Recency,Frequency,Monetary,Monetary,Marketing Action,%ofTotalCustomers,Customer Segmentation,kkk
+,,mean,mean,mean,count,unique,,,
+0,Champions Big Spenders,171.8,1.7,565.9,5873,['Upsell most expensive items'],6.242095082211145,Customer Segmentation,6.24%
+1,Needs Attention,458.4,1.2,208.6,23440,"['Price incentives and Limited time offer'
+ 'Cross Sell Recommendations and Discount coupons']",24.913112332203173,Customer Segmentation,24.91%
+2,Potential Loyalists,183.6,1.1,143.6,58814,['Cross Sell Recommendations and Discount coupons'],62.51022989360911,Customer Segmentation,62.51%
+3,VVIP - Can't Loose Them,64.8,1.7,587.1,5960,['No Price Incentives; Offer Limited edition and Loyality programs'],6.334562691976576,Customer Segmentation,6.33%
