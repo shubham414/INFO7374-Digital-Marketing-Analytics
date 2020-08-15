@@ -32,7 +32,9 @@ For customers, a customized products recommendation system
 
 Dash app:- https://olistdigimarketing.herokuapp.com/ <br>
 Recommender System:- https://olist-recommendation-system.web.app <br>
-Note:- Use CustomerID C40402 for reference. Whilre using Dash app, if app doesn't work first time. Try to reopen it in new browser and Refresh Several times.<br>
+Note:- Use CustomerID C40402 for reference. Whilre using Dash app, if app doesn't work first time. Try to reopen it in new browser and Refresh Several times.
+
+#### Clatt link: https://docs.google.com/document/d/1OoBvt6bDT5OhIQDoC9dMWW1M9QTWEjusT1aWGRUQTic/edit<br>
 
 ## Project Components and Workflow
 <img width="683" alt="Screen Shot 2020-08-14 at 7 36 40 PM" src="https://user-images.githubusercontent.com/59700753/90299959-38407400-de66-11ea-9eef-327c8914dbe0.png">
