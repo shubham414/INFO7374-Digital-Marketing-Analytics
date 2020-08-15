@@ -31,7 +31,7 @@ For customers, a customized products recommendation system
 9. React Application was deployed on Firebase whereas Dash Application was deployed on Heroku
 
 Dash app:- https://olistdigimarketing.herokuapp.com/
-Recommender System:- https://olist-recommendation-system.web.app/
+Recommender System:- https://olist-recommendation-system.web.app
 Note:- Use CustomerID C40402 for reference
 
 ## Project Components and Workflow
