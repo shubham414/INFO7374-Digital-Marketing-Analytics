@@ -30,6 +30,10 @@ For customers, a customized products recommendation system
 8. Created two separate applications, one from customer perspective which is  Recommender System App using React app framework and other is for Digital marketing Personas which is a Dash Application
 9. React Application was deployed on Firebase whereas Dash Application was deployed on Heroku
 
+Dash app:- https://olistdigimarketing.herokuapp.com/
+Recommender System:- https://olist-recommendation-system.web.app/
+Note:- Use CustomerID C40402 for reference
+
 ## Project Components and Workflow
 <img width="683" alt="Screen Shot 2020-08-14 at 7 36 40 PM" src="https://user-images.githubusercontent.com/59700753/90299959-38407400-de66-11ea-9eef-327c8914dbe0.png">
 <img width="683" alt="Screen Shot 2020-08-14 at 7 36 51 PM" src="https://user-images.githubusercontent.com/59700753/90299961-3d052800-de66-11ea-8a20-1b3e17c7b02c.png">
