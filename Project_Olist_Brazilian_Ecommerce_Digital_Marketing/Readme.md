@@ -32,8 +32,8 @@ For customers, a customized products recommendation system
 
 Dash app:- https://olistdigimarketing.herokuapp.com/ <br>
 Recommender System:- https://olist-recommendation-system.web.app <br>
-For reference , In Dash app, use put customer id C40402, C71673 in the "Enter CustomerID" Textbox <br>
-                In Recommder System, put C40402, C00182 in empty text box and click on fetch data button<br>
+For reference , In Dash app, put customer id C40402 or C71673 in the "Enter CustomerID" Textbox <br>
+                In Recommder System, put C40402 or C00182 in empty text box and click on fetch data button<br>
  
  
 
