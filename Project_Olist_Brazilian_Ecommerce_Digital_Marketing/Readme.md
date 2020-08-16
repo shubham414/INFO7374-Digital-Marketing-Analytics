@@ -32,8 +32,13 @@ For customers, a customized products recommendation system
 
 Dash app:- https://olistdigimarketing.herokuapp.com/ <br>
 Recommender System:- https://olist-recommendation-system.web.app <br>
-Note:- Use CustomerID C40402 for reference. Whilre using Dash app, if app doesn't work first time try to reopen it in new browser and Refresh Several times.
-       Dash App might have different visual appearance based on your system resolution. This app is developed considering 'MACBOOK PRO 16 inch' resolution.
+For reference , In Dash app, use put customer id C40402, C71673 in the "Enter CustomerID" Textbox <br>
+                In Recommder System, put C40402, C00182 in empty text box and click on fetch data button<br>
+ 
+ 
+
+ While using Dash app, if app doesn't work first time try to reopen it in new browser and Refresh Several times.
+ Dash App might have different visual appearance based on your system resolution. This app is developed considering 'MACBOOK PRO 16 inch' resolution.
 
 #### Clatt link: https://docs.google.com/document/d/1OoBvt6bDT5OhIQDoC9dMWW1M9QTWEjusT1aWGRUQTic/edit<br>
 
