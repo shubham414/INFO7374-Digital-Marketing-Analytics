@@ -26,9 +26,9 @@ For customers, a customized products recommendation system
 4. Predicting the Customer Lifetime Value
 5. Created a personalized Recommendations System 
 6. Created business dashboards for the stakeholders
-7. Created an AWS Data Pipeline to monitor the dataset
-8. Created two separate applications, one from customer perspective which is  Recommender System App using React app framework and other is for Digital marketing Personas which is a Dash Application
-9. React Application was deployed on Firebase whereas Dash Application was deployed on Heroku
+<!-- 7. Created an AWS Data Pipeline to monitor the dataset -->
+7. Created two separate applications, one from customer perspective which is  Recommender System App using React app framework and other is for Digital marketing Personas which is a Dash Application
+8. React Application was deployed on Firebase whereas Dash Application was deployed on Heroku
 
 Dash app:- https://olistdigimarketing.herokuapp.com/ <br>
 Recommender System:- https://olist-recommendation-system.web.app <br>
@@ -42,10 +42,10 @@ For reference , In Dash app, put customer id C40402 or C71673 in the "Enter Cust
 
 #### Clatt link: https://docs.google.com/document/d/1OoBvt6bDT5OhIQDoC9dMWW1M9QTWEjusT1aWGRUQTic/edit<br>
 
-## Project Components and Workflow
+<!-- ## Project Components and Workflow
 <img width="683" alt="Screen Shot 2020-08-14 at 7 36 40 PM" src="https://user-images.githubusercontent.com/59700753/90299959-38407400-de66-11ea-9eef-327c8914dbe0.png">
 <img width="683" alt="Screen Shot 2020-08-14 at 7 36 51 PM" src="https://user-images.githubusercontent.com/59700753/90299961-3d052800-de66-11ea-8a20-1b3e17c7b02c.png">
-<img width="683" alt="Screen Shot 2020-08-14 at 7 37 10 PM" src="https://user-images.githubusercontent.com/59700753/90299969-42627280-de66-11ea-8963-5ca1e304434f.png">
+<img width="683" alt="Screen Shot 2020-08-14 at 7 37 10 PM" src="https://user-images.githubusercontent.com/59700753/90299969-42627280-de66-11ea-8963-5ca1e304434f.png"> -->
 
 
 ### Final Product
@@ -66,8 +66,8 @@ For reference , In Dash app, put customer id C40402 or C71673 in the "Enter Cust
 <br>
 <br>
 
-## AWS Data Pipeline
-<img width="642" alt="Screen Shot 2020-08-14 at 7 48 50 PM" src="https://user-images.githubusercontent.com/59700753/90300207-6b373780-de67-11ea-856f-3ade271f8133.png">
+<!-- ## AWS Data Pipeline
+<img width="642" alt="Screen Shot 2020-08-14 at 7 48 50 PM" src="https://user-images.githubusercontent.com/59700753/90300207-6b373780-de67-11ea-856f-3ade271f8133.png"> -->
 
 ## Einstein Analytics Dashboard
 <img width="642" alt="Screen Shot 2020-08-14 at 7 37 48 PM" src="https://user-images.githubusercontent.com/59700753/90300249-8efa7d80-de67-11ea-9d05-6811b2996020.png">
