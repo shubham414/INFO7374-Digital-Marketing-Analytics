@@ -47,6 +47,7 @@ For reference , In Dash app, put customer id C40402 or C71673 in the "Enter Cust
 <img width="683" alt="Screen Shot 2020-08-14 at 7 36 51 PM" src="https://user-images.githubusercontent.com/59700753/90299961-3d052800-de66-11ea-8a20-1b3e17c7b02c.png">
 <img width="683" alt="Screen Shot 2020-08-14 at 7 37 10 PM" src="https://user-images.githubusercontent.com/59700753/90299969-42627280-de66-11ea-8963-5ca1e304434f.png"> -->
 
+![alt text](https://lh3.googleusercontent.com/CmRUB0Pvv6pNl7XflTFNOWGKE6YiOlyDQ2_3JfvRlEOkS5RgTnNkbq9hqD2wynVnV8_hiyS6bB7Q7oX2WSOcX2nFXA3c_keREbbX0WSmq9szBNjlVXD2eu9Xpp9m87eHP2ekKW_g)
 
 ### Final Product
 
